@@ -11,8 +11,10 @@ This program allows you to test the internet speed of multiple proxies and logs 
 ## Requirements
 - Python 3.x
 - `speedtest-cli` package
+- Install dependencies:
+pip install speedtest-cli
 
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/username/x86.git
+   git clone [https://github.com/X86-TN/proxy-speedtest.git]
