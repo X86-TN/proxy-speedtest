@@ -23,7 +23,9 @@ Create a file named proxy.txt in the same directory.
 Add proxy in the format: ip:port:user:pass, one per line.
 run program by: python main.py or run start.bat
 Check the results:
-The results will be saved in result.txt in the following format: ip:port:user:pass|dow:xx.xxMbps|up:xx.xxMbps|ping:xx.xxms
+The results will be saved in result.txt in the following format: 
+ip:port:user:pass|dow:xx.xxMbps|up:xx.xxMbps|ping:xx.xxms
+
 Example proxy.txt
 16.103.5.135:6715:username:password
 11.124.25.232:6121:username:password
