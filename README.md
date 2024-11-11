@@ -12,7 +12,24 @@ This program allows you to test the internet speed of multiple proxies and logs 
 - Python 3.x
 - `speedtest-cli` package
 - Install dependencies:
-pip install speedtest-cli
+- Navigate to the proxy-speedtest folder: cd x86/proxy-speedtest
+  
+install module: pip install speedtest-cli
+
+Usage
+Prepare your proxy list:
+
+Create a file named proxy.txt in the same directory.
+Add proxy in the format: ip:port:user:pass, one per line.
+run program by: python main.py or run start.bat
+Check the results:
+The results will be saved in result.txt in the following format: ip:port:user:pass|dow:xx.xxMbps|up:xx.xxMbps|ping:xx.xxms
+Example proxy.txt
+16.103.5.135:6715:username:password
+11.124.25.232:6121:username:password
+121.111.11.234:6632:username:password
+
+
 
 ## Installation
 1. **Clone the repository**:
