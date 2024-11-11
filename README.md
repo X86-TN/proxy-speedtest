@@ -29,9 +29,7 @@ ip:port:user:pass|dow:xx.xxMbps|up:xx.xxMbps|ping:xx.xxms
 Example proxy.txt
 
 16.103.5.135:6715:username:password
-
 11.124.25.232:6121:username:password
-
 121.111.11.234:6632:username:password
 
 
